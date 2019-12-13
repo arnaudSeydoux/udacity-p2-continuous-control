@@ -23,12 +23,14 @@ Structure is as follows:
     FCL (fully connected layer) 1: 256 (relu activation function)
     FCL 2: 128 (relu)
     Output Layer: 4 (actions)
+    
 
 - Critic
-    Input Layer: 33
-    FCL 1: 256 + 4 (action inputs)  (relu)
-    FCL 2: 128 (relu)
-    Output Layer: 1 (expected return)
+Input Layer: 33
+FCL 1: 256 + 4 (action inputs)  (relu)
+FCL 2: 128 (relu)
+Output Layer: 1 (expected return)
+    
 
 
 # Implemented improvements:
@@ -82,6 +84,8 @@ As we can see, agent learning is highly affected by parameters, and tuning is ke
 # Most successfull agent weights:
 
 We saved pytorch agent weights into file: `checkpoint_actor.pth` For this best agent, we reach the target of a reward of 39 for less than 50 episodes.
+
+![best agent](best.png)
     
 
 ## Next steps for improvements :
