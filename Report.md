@@ -48,8 +48,8 @@ Here are hyperparameters we have tested;
 
  - collect steps and update trajectories number:
 
-We see that all agants manage to learn, but (10,10), (20,20), (30,30) stay at a low level, while (5,5), (20,10) (10,5) converge very quickly to a high level with a very good stability afterwards.
-We observe a great sensitivity to these parameters for learning speed.
+    We see that all agants manage to learn, but (10,10), (20,20), (30,30) stay at a low level, while (5,5), (20,10) (10,5) converge very quickly to a high level with a very good stability afterwards.
+    We observe a great sensitivity to these parameters for learning speed.
 
 ![hyper parameters](collect_steps_and_update_number.png)
 
@@ -80,9 +80,15 @@ As we can see, agent learning is highly affected by parameters, and tuning is ke
 
 
 # Most successfull agent weights:
-    We saved pytorch agent weights into file: `checkpoint_actor.pth` For this best agent, we reach the target of a reward of 39 for less than 50 episodes.
+
+We saved pytorch agent weights into file: `checkpoint_actor.pth` For this best agent, we reach the target of a reward of 39 for less than 50 episodes.
     
 
 ## Next steps for improvements :
-    Evolutions in DQN might improve current agant performance, like a combination of evolutions of plain vanilha dqn, gathered into a rainbow model.
-    Modifying inputs to consider a full pixel image might as well improve performance, as more informations would be available to take decisions. In this case, neural network structure should be modified to contain convolution units to detect pattern in input image.
+
+Evolutions in DQN might improve current agant performance, like a combination of evolutions of plain vanilha dqn, gathered into a rainbow model.
+
+Modifying inputs to consider a full pixel image might as well improve performance, as more informations would be available to take decisions. In this case, neural network structure should be modified to contain convolution units to detect pattern in input image.
+
+    
+    
