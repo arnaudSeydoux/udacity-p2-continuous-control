@@ -18,18 +18,19 @@ Experioence replay is also used to improve stability: past experience run agains
 
 Structure is as follows:
 
-- Actor
-    Input Layer: 33
-    FCL (fully connected layer) 1: 256 (relu activation function)
-    FCL 2: 128 (relu)
-    Output Layer: 4 (actions)
+
+Actor:
+- Input Layer: 33
+- FCL (fully connected layer) 1: 256 (relu activation function)
+- FCL 2: 128 (relu)
+- Output Layer: 4 (actions)
     
 
-- Critic
-Input Layer: 33
-FCL 1: 256 + 4 (action inputs)  (relu)
-FCL 2: 128 (relu)
-Output Layer: 1 (expected return)
+Critic:
+- Input Layer: 33
+- FCL 1: 256 + 4 (action inputs)  (relu)
+- FCL 2: 128 (relu)
+- Output Layer: 1 (expected return)
     
 
 
