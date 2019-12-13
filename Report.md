@@ -43,7 +43,7 @@ Aditionally to the initial code provided in Udacity repository, we implemented f
 - gradient clipping was also implemented for the actor network to increase stability.
 
 
-# Improvement in agent performance varying hyperparameters:
+# Agent hyperparameters optimization:
 
 In order to run all simulations, insert at the end of `train.py` file range of parameters you want to run, then run `python train.py`. Simulation results will be stored in subdirectory `./results`.
 
@@ -91,9 +91,9 @@ We saved pytorch agent weights into file: `checkpoint_actor.pth` For this best a
 
 ## Next steps for improvements :
 
-Evolutions in DQN might improve current agant performance, like a combination of evolutions of plain vanilha dqn, gathered into a rainbow model.
+- Evolutions in DQN might improve current agant performance, like a combination of evolutions of plain vanilha dqn, gathered into a rainbow model.
 
-Modifying inputs to consider a full pixel image might as well improve performance, as more informations would be available to take decisions. In this case, neural network structure should be modified to contain convolution units to detect pattern in input image.
+- Modifying inputs to consider a full pixel image might as well improve performance, as more informations would be available to take decisions. In this case, neural network structure should be modified to contain convolution units to detect pattern in input image.
 
     
     
